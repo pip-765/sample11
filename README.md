@@ -20,3 +20,4 @@ Sample Keycloak Spring Seurity Adapter
 # Notes
 
 - The Spring application only work on JDK 11.
+- Although you redirect to localhost/favicon.ico after log in Keyclock, you enter http://localhost/index in browser, Keycloak will show contents of access token and ID token.
